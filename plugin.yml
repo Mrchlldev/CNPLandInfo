@@ -1,0 +1,10 @@
+name: CNPLandInfo
+author: Mrchlldev
+description: "Provides land information in ScoreHud and Hotbar"
+main: Mrchlldev\CNPLandInfo\Loader
+api: 5.0.0
+depend: 
+- ClaimAndProtect
+- ScoreHud
+version: 1.0.0
+src-namespace-prefix: Mrchlldev\CNPLandInfo
