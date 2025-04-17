@@ -49,12 +49,11 @@ class Loader extends PluginBase implements Listener {
     }
 
     public function getLandIdInPosition(Position $pos): int {
-        $landid = 0;
         $landManager = new LandManager();
         $landInArea = $landManager->getLandsIn($pos);
         if (empty($landInArea)) return 0;
         foreach ($landInArea as $id => $data) {
-            return id;
+            return $id;
         }
     }
 
