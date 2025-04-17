@@ -2,7 +2,6 @@
 
 namespace Mrchlldev\CNPLandInfo;
 
-use Ifera\Scorehud\Scorehud;
 use Ifera\ScoreHud\event\PlayerTagUpdateEvent;
 use Ifera\ScoreHud\scoreboard\ScoreTag;
 use Ifera\ScoreHud\event\TagsResolveEvent;
