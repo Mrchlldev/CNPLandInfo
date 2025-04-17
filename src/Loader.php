@@ -53,10 +53,9 @@ class Loader extends PluginBase implements Listener {
         $landid = 0;
         $landManager = new LandManager();
         $landInArea = $landManager->getLandsIn($pos);
-        if(empty($landInArea)) return;
-        foreach($landInArea as $id => $data){
-            $landid = $id
-            return $landid;
+        if (empty($landInArea)) return;
+        foreach ($landInArea as $id => $data) {
+            return id;
         }
     }
 
@@ -64,8 +63,8 @@ class Loader extends PluginBase implements Listener {
         $landowner = "No Land (unknown)";
         $landManager = new LandManager();
         $landInArea = $landManager->getLandsIn($pos);
-        if(empty($landInArea)) return;
-        foreach($landInArea as $id => $data){
+        if (empty($landInArea)) return;
+        foreach ($landInArea as $id => $data) {
             $landowner = $data["owner"];
             return $landowner;
         }
